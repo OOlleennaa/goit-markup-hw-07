@@ -48,17 +48,19 @@
               </li>
             </ul>
           </address>
-          <button type="button" class="contactes-open">
-            <svg class="open-icon" width="32" height="22">
-              <use href="./images/symbol-defs.svg#icon-hamburger"></use>
-            </svg>
-          </button>
+          <div  data-menu>
+            <button type="button" data-menu-open class="contactes-open">
+              <svg class="open-icon" width="32" height="22">
+                <use href="./images/symbol-defs.svg#icon-hamburger"></use>
+              </svg>
+            </button>
+          </div>
       </div>
       
-        <div class="mob-menu">
+        <div class="mob-menu is-hidden" data-menu>
           <div class="container">
           <div>
-            <button data-modal-close type="button" class="mob-menu-close-button">
+            <button type="button" data-menu-close class="mob-menu-close-button">
               <svg class="mob-menu-icon" Width="8" Height="8">
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>

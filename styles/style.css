@@ -167,9 +167,11 @@ color: #434455;
 }
 .mob-menu-soc-list {
     display: flex;
-    justify-content: center;
+    /* justify-content: left ; */
+    align-items: center;
     gap: 56px;
     margin: 48px auto 40px 0; 
+    /* overflow-y: auto; */
 }
 
 .mob-menu-soc-item {
@@ -1108,7 +1110,9 @@ transition: transform 250ms linear;
 .contactes-open {
     display: none;
 }
-
+.mob-menu-soc-list {
+    display: none;
+}
 
         .main-sect-1 {
             max-width: 1440px;
