@@ -48,6 +48,78 @@
               </li>
             </ul>
           </address>
+          <button type="button" class="contactes-open">
+            <svg class="open-icon" width="32" height="22">
+              <use href="./images/symbol-defs.svg#icon-hamburger"></use>
+            </svg>
+          </button>
+      </div>
+      
+        <div class="mob-menu">
+          <div class="container">
+          <div>
+            <button data-modal-close type="button" class="mob-menu-close-button">
+              <svg class="mob-menu-icon" Width="8" Height="8">
+              <use href="./images/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mob-menu-navi">
+             <ul class="mob-menu-list">
+              <li class="mob-menu-item"><a class="mob-menu-link mob-menu-clicpage" href="">Studio</a></li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          </div>
+        <div>
+          <address class="mob-menu-addr">
+            <ul class="mob-menu-addr-cont">
+              <li class="mob-menu-cont">
+                <a class="mob-menu-link-cont mob-menu-tel" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a>
+              </li>
+              <li class="mob-menu-cont">
+                <a class="mob-menu-link-cont mob-menu-email" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a>
+              </li>
+              </ul>
+          </address>
+          <ul class="mob-menu-soc-list">
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link" href="" >
+                <svg class="mob-menu-soc-icon" Width="24" Height="24">
+                  <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link" href="" >
+                <svg class="mob-menu-soc-icon" Width="24" Height="24">
+                  <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link soc-link" href="" >
+                <svg class="mob-menu-soc-icon" Width="24" Height="24">
+                  <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
+                </svg> 
+              </a>
+            </li>
+            <li class="mob-menu-soc-item">
+              <a class="mob-menu-soc-link soc-link" href="" >
+                <svg class="mob-menu-soc-icon" Width="24" Height="24">
+                  <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
       </div>
     </header>
     <main>
@@ -153,7 +225,9 @@
             <ul class="main-staff-list">
               <li class="nomarker staff-title">
                 <img class="staff-foto" src="./images/img1.jpg" alt="Mark Guerrero" 
-                srcset="./images/img "
+                srcset="
+                ./images/img1.jpg 1x,
+                ./images/img1-2x.jpg 2x"
                 width="100%" />
                 <div class="staff-name-proff">
                   <h3 class="main-staff-name">Mark Guerrero</h3>
@@ -191,7 +265,11 @@
                  </div>
               </li>
                <li class="nomarker staff-title">
-                <img class="staff-foto" src="./images/img2.jpg" alt="Tom Ford" width="100%" />
+                <img class="staff-foto" src="./images/img2.jpg" alt="Tom Ford"
+                srcset="
+                ./images/img2.jpg 1x,
+                ./images/img2-2x.jpg 2x"
+                width="100%" />
                 <div class="staff-name-proff">
                   <h3 class="main-staff-name">Tom Ford</h3>
                   <p class="main-staff-proff">Frontend Developer</p>
@@ -228,7 +306,11 @@
                 </div>
               </li>
               <li class="nomarker staff-title">
-                <img class="staff-foto" src="./images/img3.jpg" alt="Camila Garcia" width="100%" />
+                <img class="staff-foto" src="./images/img3.jpg" alt="Camila Garcia" 
+                srcset="
+                ./images/img3.jpg 1x,
+                ./images/img3-2x.jpg 2x"
+                width="100%" />
                 <div class="staff-name-proff">
                   <h3 class="main-staff-name">Camila Garcia</h3>
                   <p class="main-staff-proff">Marketing</p>
@@ -265,7 +347,11 @@
                 </div>
               </li>
               <li class="nomarker staff-title">
-                <img class="staff-foto" src="./images/img4.jpg" alt="Daniel Wilson" width="100%" />
+                <img class="staff-foto" src="./images/img4.jpg" alt="Daniel Wilson"
+                srcset="
+                ./images/img4.jpg 1x,
+                ./images/img4-2x.jpg 2x"
+                width="100%" />
                 <div class="staff-name-proff">
                   <h3 class="main-staff-name">Daniel Wilson</h3>
                   <p class="main-staff-proff">UI Designer</p>
