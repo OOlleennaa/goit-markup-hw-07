@@ -165,7 +165,7 @@ flex-grow: 0;
 
 .mob-menu-tel {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 22px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-style: normal;
@@ -186,7 +186,7 @@ color: #434455;
     display: flex;
     /* justify-content: left ; */
     align-items: center;
-    gap: 46px;
+    gap: 26px;
     margin: 48px auto 40px 0; 
     /* overflow-y: auto; */
 }
@@ -1121,6 +1121,9 @@ text-align: start;
         margin-left: auto;
         margin-right: auto;
       }
+    .mob-menu-soc-list {
+        gap: 46px;  
+    }
   } 
   @media screen and (min-width: 768px) 
       {
@@ -1218,28 +1221,30 @@ text-align: start;
     display: none;
     gap: 56px;
 }
+.mob-menu-tel {
+    font-size: 30px;}
 
-        .main-sect-1 {
-            height: 436px;
-            max-width: 1440px;
-            margin: 0 auto 96px;
-            background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-tablet.jpg);
-        } 
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        .main-sect-1 {
-          background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-tablet2x.jpg);
-        }
-      }             
-        .main-title {
-            font-weight: 700;
-            font-size: 56px;
-            line-height: 60px;
-            max-width: 495px;
-            color: var(--color5);
-            margin: 0 auto 48px;
-           }
+.main-sect-1 {
+    height: 436px;
+    max-width: 1440px;
+    margin: 0 auto 96px;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-tablet.jpg);
+} 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.main-sect-1 {
+     background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-tablet2x.jpg);
+}
+}             
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    max-width: 495px;
+    color: var(--color5);
+    margin: 0 auto 48px;
+     }
   }
   @media screen and (min-width: 1200px) 
   {
