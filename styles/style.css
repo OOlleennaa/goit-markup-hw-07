@@ -95,12 +95,20 @@ align-items: center;
 
 }
 .mob-menu-close-button {
+    box-sizing: border-box;
+    background: #E7E9FC;
+    opacity: 0.1;
+     border: 1px solid #2E2F42;
     display: block;
+    border-radius: 50%;
+    stroke: var(--color1);
+    /* fill: #2E2F42; */
     /* margin-left: auto;
     margin-bottom: 30px; */
     margin: 24px 24px 30px auto;
 }
 .mob-menu-icon {
+    stroke: var(--color1);
 }
 .mob-menu-navi {
     
@@ -141,6 +149,7 @@ flex-grow: 0;
 
 }
 .mob-menu-link-cont {
+
    
 /* text-transform: capitalize; */
     text-decoration: none;
@@ -148,8 +157,8 @@ flex-grow: 0;
 
 .mob-menu-tel {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     font-style: normal;
     flex: none;
