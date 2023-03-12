@@ -107,13 +107,17 @@ align-items: center;
     border: 1px solid var(--color8);
     display: block; 
     border-radius: 50%;
+    /* text-align: center; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     /* stroke: var(--color1); */
     /* fill: #2E2F42; */
-    /* margin-left: auto;
-    margin-bottom: 30px; */
+    /* margin-left: auto; */
+    /* margin-bottom: 30px; */
     margin: 4px 4px 30px auto;
-    /* margin-bottom: 24px;
-    margin-left: auto; */
+    /* margin-bottom: 24px; */
+   
 }
 .mob-menu-icon {
     stroke: var(--color1);
