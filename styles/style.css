@@ -81,6 +81,8 @@ align-items: center;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ; */
 }
 .mob-menu {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     padding: 24px 24px 40px 40px;
@@ -89,12 +91,10 @@ align-items: center;
     background-color: #ffffff;
     
 }
-.mob-menu > .container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.mob-menu-top {
+    margin-bottom: auto;
 }
+
 .mob-menu-container {
     max-width: 428px;
 
@@ -213,7 +213,7 @@ background: var(--color4)
     height: 432px;
     /* margin-bottom: 96px; */
     padding: 112px 24px; 
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-mobile.jpg);
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-mobile.jpg );
      background-size: cover;
      background-repeat: no-repeat ;
      background-position: center;
@@ -1075,7 +1075,7 @@ transition: transform 250ms linear;
 .main-sect-1 {
     height: 436px;
     max-width: 1440px;
-    /* margin: 0 auto 96px; */
+    background-size: cover;
     padding: 112px 0;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-tablet.jpg);
 } 
@@ -1083,14 +1083,15 @@ transition: transform 250ms linear;
     font-size: 56px;
   min-width: 496px;
 }
-      }
+     
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
 .main-sect-1 {
      background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-tablet2x.jpg);
 }
-}             
+}   
+ }          
 
   @media screen and (min-width: 1200px) 
   {
@@ -1119,6 +1120,7 @@ transition: transform 250ms linear;
     .main-sect-1 {
         height: 600px;
         max-width: 1440px;
+        
         margin: 0 auto;
         padding: 188px 0;
         background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
@@ -1128,14 +1130,15 @@ transition: transform 250ms linear;
         max-width: 495px;
         margin: 0 auto 48px;
        }
-}
+
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .main-sect-1 {
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office2x.jpg);
   }
-}          
+}  
+}        
     
 
 /* **********  section skills */
